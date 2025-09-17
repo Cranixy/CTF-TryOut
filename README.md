@@ -4,7 +4,7 @@
 
 Writeups for the \*\*HTB CTF Try Out\*\* challenges.  
 
-Each writeup is short, reproducible, and shows exactly how the flag was found.
+Focused, reproducible, and straight to the flag.
 
 
 
@@ -12,15 +12,17 @@ Each writeup is short, reproducible, and shows exactly how the flag was found.
 
 
 
-\## 📂 Solved Challenges
+\## 📚 Categories
 
 
 
-| # | Category       | Challenge      | Points | Difficulty | Write-up |
+\### ICS Challenges
 
-|---|----------------|----------------|--------|------------|----------|
+\- \[x] \[Shush Protocol](ICS-Challenges/Shush-Protocol/writeup.md) — \*900 pts, Very Easy\*
 
-| 1 | ICS Challenges | Shush Protocol | 900    | Very Easy  | \[View](ICS-Challenges/Shush-Protocol/writeup.md) |
+
+
+---
 
 
 
