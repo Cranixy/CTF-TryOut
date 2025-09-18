@@ -11,3 +11,6 @@ Writeups for the **HTB CTF Try Out** challenges.
 
 ### ICS Challenges
 - [x] [Shush Protocol](ICS-Challenges/Shush-Protocol/writeup.md) - 900 pts, Very Easy
+
+### Forensics Challenges
+- [x] [An Unusual Sighting](Forensics-Challenges/An-Unusual-Sighting/writeup.md) - 950 pts, Very Easy
