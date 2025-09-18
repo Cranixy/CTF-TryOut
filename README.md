@@ -3,7 +3,7 @@
 Writeups for the **HTB CTF Try Out** challenges.  
 *Solo run under my team **CipherRonin**.*  
 
-*Started: 17.09.2025*  
+*Started: 17.09.2025 – Ongoing* 
 
 ---
 
