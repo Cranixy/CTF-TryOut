@@ -1,7 +1,9 @@
 # CTF-TryOut
 
 Writeups for the **HTB CTF Try Out** challenges.  
-Focused, reproducible, and straight to the flag.
+*Solo run under my team **CipherRonin**.*  
+
+*Started: 17.09.2025*  
 
 ## Categories
 
