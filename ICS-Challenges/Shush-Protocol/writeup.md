@@ -36,3 +36,6 @@ File provided: `ics_shush_protocol.zip` (original) / `traffic.pcapng` (extracted
 ## Flag
 HTB{50m371m35_cu570m_p2070c01_423_n07_3n0u9h7}
 
+---
+
+[← Back to home](../../README.md)
