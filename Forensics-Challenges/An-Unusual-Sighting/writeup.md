@@ -26,7 +26,7 @@ Files provided:
 3. Looked for the **first successful login** by finding the earliest `Accepted password` entry:  
    `2024-02-13 11:29:50`  
 4. Searched for a login that occurred **outside the allowed time (09:00–19:00)**.  
-   Found a successful login at `2024-02-19 04:00:14` — clearly suspicious.  
+   Found a successful login at `2024-02-19 04:00:14` - clearly suspicious.  
 5. Checked the SSH log entries around that timestamp to get the **attacker’s public key fingerprint**:  
    `OPkBSs6okUKraq8pYo4XwwBg55QSo210F09FCe1-yj4`  
 6. Opened `bash_history.txt` to trace actions executed after login.  
@@ -34,7 +34,7 @@ Files provided:
    `whoami`  
 8. Scrolled to the bottom of the file to find the **final command** executed before logout:  
    `./setup`  
-9. Submitted the answers in the order the system requested — and received the flag.
+9. Submitted the answers in the order the system requested - and received the flag.
 
 ---
 
