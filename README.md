@@ -10,4 +10,4 @@ Writeups for the **HTB CTF Try Out** challenges.
 ## Categories
 
 ### ICS Challenges
-- [x] [Shush Protocol](ICS-Challenges/Shush-Protocol/writeup.md) | 900 pts, Very Easy
+- [x] [Shush Protocol](ICS-Challenges/Shush-Protocol/writeup.md) - 900 pts, Very Easy
