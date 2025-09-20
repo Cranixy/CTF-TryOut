@@ -26,22 +26,30 @@ Files used:
    To begin, I extracted the contents of the `.bin` dump using `binwalk`: `binwalk -e chal_router_dump.bin`. After running it, a folder is created.
    I then moved into the extracted directory to explore the contents: `cd _chal_router_dump.bin.extracted`. This is where all the juicy stuff from the router is dumped.
    Then `grep -r "OpenWrt"`. Answer: OpenWrt 23.05.0.
+   
 2. Question: What is the Linux kernel version?
    `cd .. && strings chal_router_dump.bin | grep -i "OpenWrt"`. Answer: Linux-5.15.134.
+   
 3. Question: What's the hash of the root account's password, enter the whole line?
    `grep -R --no-filename '^root:' _chal_router_dump.bin.extracted/`. Answer: root:$1$YfuRJudo$cXCiIJXn9fWLIt8WY2Okp1:19804:0:99999:7:::.
+   
 4. Question: What is the PPPoE username?
    `cd _chal_router_dump.bin.extracted && grep -Ri "username" jffs2-root`. Answer: yohZ5ah.
+   
 5. Question: What is the PPPoE password?
    `grep -Ri "password" jffs2-root`. Answer: ae-h+i$i^Ngohroorie!bieng6kee7oh.
+   
 6. Question: What is the WiFi SSID?
    `grep -Ri "ssid"`. Answer: VLT-AP01.
-6. Question: What is the WiFi Password?
+   
+7. Question: What is the WiFi Password?
    `grep -Ri "key"`. Answer: french-halves-vehicular-favorable.
-7. Question: What are the 3 WAN ports that redirect traffic from WAN -> LAN?
+   
+8. Question: What are the 3 WAN ports that redirect traffic from WAN -> LAN?
    I started by searching for `redirect`. `grep -Ri "redirect"`.
    Then `grep -Ri "option src_dport"`. Answer: 1778,2289,8088.
-8. Submitted the answers in the order the system requested - and received the flag.
+   
+9. Submitted the answers in the order the system requested - and received the flag.
 
 ---
 
