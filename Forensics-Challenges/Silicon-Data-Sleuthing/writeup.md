@@ -45,18 +45,20 @@ Files used:
    
 6. Question: What is the WiFi SSID?
    `grep -Ri "ssid"`.
-    **Answer:** VLT-AP01.
+
+
+   **Answer:** VLT-AP01.
    
-7. Question: What is the WiFi Password?
+8. Question: What is the WiFi Password?
    `grep -Ri "key"`.
     Answer: french-halves-vehicular-favorable.
    
-8. Question: What are the 3 WAN ports that redirect traffic from WAN -> LAN?
+9. Question: What are the 3 WAN ports that redirect traffic from WAN -> LAN?
     I started by searching for `redirect`. `grep -Ri "redirect"`.
     Then `grep -Ri "option src_dport"`.
     Answer: 1778,2289,8088.
    
-9. Submitted the answers in the order the system requested - and received the flag.
+10. Submitted the answers in the order the system requested - and received the flag.
 
 ---
 
