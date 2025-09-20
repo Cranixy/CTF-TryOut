@@ -45,7 +45,7 @@ Files used:
    
 6. Question: What is the WiFi SSID?
    `grep -Ri "ssid"`.
-    Answer: VLT-AP01.
+    **Answer:** VLT-AP01.
    
 7. Question: What is the WiFi Password?
    `grep -Ri "key"`.
