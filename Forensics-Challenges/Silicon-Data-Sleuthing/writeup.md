@@ -29,9 +29,9 @@ Files used:
 2. Question: What is the Linux kernel version?
    `cd .. && strings chal_router_dump.bin | grep -i "OpenWrt"`. Answer: Linux-5.15.134.
 3. Question: What's the hash of the root account's password, enter the whole line?
-   `grep -R --no-filename '^root:' _chal_router_dump.bin.extracted/`. Answer: `root:$1$YfuRJudo$cXCiIJXn9fWLIt8WY2Okp1:19804:0:99999:7:::`.
+   `grep -R --no-filename '^root:' _chal_router_dump.bin.extracted/`. Answer: root:$1$YfuRJudo$cXCiIJXn9fWLIt8WY2Okp1:19804:0:99999:7:::.
 4. Question: What is the PPPoE username?
-   `cd _chal_router_dump.bin.extracted && grep -Ri "username" jffs2-root`. Answer: `yohZ5ah`.
+   `cd _chal_router_dump.bin.extracted && grep -Ri "username" jffs2-root`. Answer: yohZ5ah.
 5. Question: What is the PPPoE password?
    `grep -Ri "password" jffs2-root`. Answer: ae-h+i$i^Ngohroorie!bieng6kee7oh.
 6. Question: What is the WiFi SSID?
