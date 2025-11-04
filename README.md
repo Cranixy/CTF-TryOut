@@ -14,4 +14,4 @@ Writeups for the **HTB CTF Try Out** challenges.
 
 ### Forensics Challenges
 - [x] [An Unusual Sighting](Forensics-Challenges/An-Unusual-Sighting/writeup.md) - 950 pts, Very Easy
-- [x] [An Unusual Sighting](Forensics-Challenges/Silicon-Data-Sleuthing/writeup.md) - 975 pts, Easy
+- [x] [Silicon Data Sleuthing](Forensics-Challenges/Silicon-Data-Sleuthing/writeup.md) - 975 pts, Easy
